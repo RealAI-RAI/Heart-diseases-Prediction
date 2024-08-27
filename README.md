@@ -68,4 +68,13 @@ Install requirements:
 
 pip install -r requirements.txt
 
+# Projet de Prédiction des Maladies Cardiaques
+
+Voici un résumé du projet en français. Pour plus de détails, veuillez consulter les fichiers suivants :
+
+- [README-FR.md](README-FR.md) - Version française
+- [README-EN.md](README-EN.md) - English Version
+- [README-ZH.md](README-ZH.md) - 中文版本 (Chinese Version)
+
+
 
