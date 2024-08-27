@@ -1,0 +1,30 @@
+name: Translate README
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      
+      # Add translation steps for each language
+      - name: Adding README - French
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: fr
+        
+      - name: Adding README - English
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: en
+        
+      - name: Adding README - Chinese
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: zh-CN
